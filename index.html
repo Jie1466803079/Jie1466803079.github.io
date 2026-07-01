@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jie Liu — Data & AI</title>
+<meta name="description" content="Jie Liu — Data & AI practitioner. Dual Master's in AI and Machine Learning & Big Data. AWS data pipelines, ML models, and dashboards that drive decisions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#14365c; --navy-2:#1e4b7d; --ink:#1c2733; --muted:#5b6b7a;
+    --line:#e6ebf1; --bg:#ffffff; --soft:#f6f8fb; --accent:#0f9d8f;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg); line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--navy-2); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:900px; margin:0 auto; padding:0 24px}
+  .section{padding:52px 0; border-top:1px solid var(--line)}
+  .eyebrow{font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:var(--accent); margin-bottom:14px}
+  h2{font-size:24px; font-weight:700; color:var(--navy); margin-bottom:18px; letter-spacing:-0.2px}
+
+  /* Hero */
+  .hero{padding:74px 0 58px}
+  .avail{display:inline-block; font-size:12.5px; font-weight:600; color:var(--accent);
+    background:rgba(15,157,143,.10); border:1px solid rgba(15,157,143,.25);
+    padding:5px 12px; border-radius:999px; margin-bottom:20px}
+  .hero h1{font-size:48px; line-height:1.05; font-weight:800; letter-spacing:-1px; color:var(--navy)}
+  .hero .role{font-size:19px; font-weight:600; color:var(--ink); margin-top:10px}
+  .hero .tag{font-size:17px; color:var(--muted); margin-top:14px; max-width:640px}
+  .hero .loc{font-size:14px; color:var(--muted); margin-top:14px}
+  .btns{display:flex; flex-wrap:wrap; gap:10px; margin-top:26px}
+  .btn{display:inline-flex; align-items:center; gap:7px; font-size:14.5px; font-weight:600;
+    padding:10px 16px; border-radius:9px; border:1px solid var(--line); color:var(--ink); background:#fff;
+    transition:transform .12s ease, border-color .12s ease, box-shadow .12s ease}
+  .btn:hover{text-decoration:none; transform:translateY(-1px); border-color:#c9d5e2; box-shadow:0 4px 14px rgba(20,54,92,.08)}
+  .btn.primary{background:var(--navy); color:#fff; border-color:var(--navy)}
+  .btn.primary:hover{background:var(--navy-2)}
+
+  /* About */
+  .about p{font-size:16px; color:#2b3946; max-width:720px}
+  .about p + p{margin-top:12px}
+
+  /* Projects */
+  .cards{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+  .card{border:1px solid var(--line); border-radius:14px; padding:20px 20px 18px; background:#fff;
+    transition:transform .14s ease, box-shadow .14s ease, border-color .14s ease; display:flex; flex-direction:column}
+  .card:hover{transform:translateY(-3px); box-shadow:0 10px 26px rgba(20,54,92,.10); border-color:#d6e0ea}
+  .card h3{font-size:17.5px; color:var(--navy); font-weight:700; letter-spacing:-.2px}
+  .card .desc{font-size:14.5px; color:#3a4854; margin-top:9px; flex:1}
+  .tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:14px}
+  .tag{font-size:11.5px; font-weight:600; color:var(--navy); background:var(--soft);
+    border:1px solid var(--line); padding:3px 9px; border-radius:999px}
+  .card .links{display:flex; gap:14px; margin-top:15px; font-size:13.5px; font-weight:600}
+  .card .links a{display:inline-flex; align-items:center; gap:5px}
+
+  /* Skills */
+  .skills{display:grid; grid-template-columns:1fr 1fr; gap:14px 28px}
+  .skill .k{font-size:13px; font-weight:700; color:var(--navy); text-transform:uppercase; letter-spacing:.6px}
+  .skill .v{font-size:15px; color:#33424f; margin-top:2px}
+
+  /* Footer */
+  footer{padding:40px 0 56px; border-top:1px solid var(--line); color:var(--muted); font-size:14px}
+  footer .row{display:flex; flex-wrap:wrap; justify-content:space-between; gap:14px; align-items:center}
+  footer a{font-weight:600}
+
+  @media (max-width:640px){
+    .hero h1{font-size:38px}
+    .cards, .skills{grid-template-columns:1fr}
+    .section{padding:40px 0}
+  }
+</style>
+</head>
+<body>
+
+  <header class="wrap hero">
+    <span class="avail">● Open to 2027 graduate roles — Data · AI · Technology</span>
+    <h1>Jie Liu</h1>
+    <div class="role">Data &amp; AI Practitioner</div>
+    <div class="tag">I design AWS data pipelines, build and serve ML models, and turn raw data into dashboards that drive commercial decisions — currently completing a dual master's in AI and Machine Learning &amp; Big Data.</div>
+    <div class="loc">Sydney, Australia</div>
+    <nav class="btns">
+      <a class="btn primary" href="Resume_Jie_Liu.pdf">↓ Resume (PDF)</a>
+      <a class="btn" href="https://github.com/Jie1466803079" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/jie1001" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://public.tableau.com/app/profile/jie.liu5535" target="_blank" rel="noopener">Tableau</a>
+      <a class="btn" href="mailto:jieliu.jl@outlook.com">Email</a>
+    </nav>
+  </header>
+
+  <section class="section wrap about">
+    <div class="eyebrow">About</div>
+    <p>I'm completing a <strong>dual master's</strong> — a Master by Research in Artificial Intelligence at UNSW Sydney, and a Master of Computer Science (Machine Learning &amp; Big Data) at the University of Wollongong.</p>
+    <p>My experience spans the full data lifecycle: designing pipelines that aggregate data from multiple platforms, building and serving ML models on AWS, writing SQL across relational databases, and turning messy data into dashboards leadership actually uses to make commercial decisions. I have a habit of automating repetitive data work so the time goes to analysis, not manual effort.</p>
+  </section>
+
+  <section class="section wrap">
+    <div class="eyebrow">Selected Projects</div>
+    <h2>What I've built</h2>
+    <div class="cards">
+
+      <article class="card">
+        <h3>OzFish.AI — Fish ID &amp; Sizing (Android)</h3>
+        <div class="desc">Android app that identifies <strong>68 NSW fish species</strong> from a photo using an InceptionV3 transfer-learning model (<strong>90.22% top-5 accuracy</strong>) and measures catch length via AR to check size compliance. Master's capstone — led a 6-person team; ranked #1 in cohort.</div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Keras</span><span class="tag">TensorFlow Lite</span><span class="tag">Android</span><span class="tag">AR</span></div>
+        <div class="links">
+          <a href="https://github.com/Jie1466803079/OzFish.AI" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Customer, Market &amp; Competitor Analysis</h3>
+        <div class="desc">Python ETL + an <strong>interactive Tableau dashboard</strong> over 22,978 transactions — customer segmentation, market-share shifts (<strong>24% → 29%</strong> in a shrinking market), and competitor analysis for a retail brand.</div>
+        <div class="tags"><span class="tag">Tableau</span><span class="tag">Python</span><span class="tag">ETL</span><span class="tag">Segmentation</span></div>
+        <div class="links">
+          <a href="https://public.tableau.com/app/profile/jie.liu5535/viz/DataAnalysisontheOutdoorProject/Story1" target="_blank" rel="noopener">Live dashboard →</a>
+          <a href="https://github.com/Jie1466803079/Tableau-Driven-Triple-Analysis-Customer-Market-and-Competitor-Insights-Project" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Graph-Based Fraud Detection</h3>
+        <div class="desc">Detects fraudulent mobile-money transactions by combining transaction-network (graph) analysis with clustering, graph embeddings (node2vec), a GCN, and tree-based models over <strong>1M+ PaySim transactions</strong>. Led a 6-person team.</div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">NetworkX</span><span class="tag">StellarGraph</span><span class="tag">XGBoost</span></div>
+        <div class="links">
+          <a href="https://github.com/Jie1466803079/Utilizing-Graph-Algorithms-for-Early-Detection-and-Warning-of-Fraudulent-Financial-Transactions" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Forecasting Consumer Purchase Intentions</h3>
+        <div class="desc">Binary-classification study predicting whether a customer will purchase — Naive Bayes vs. Logistic Regression with SMOTE for class imbalance and full precision/recall/F1/ROC-AUC evaluation.</div>
+        <div class="tags"><span class="tag">scikit-learn</span><span class="tag">Naive Bayes</span><span class="tag">SMOTE</span><span class="tag">Classification</span></div>
+        <div class="links">
+          <a href="https://github.com/Jie1466803079/Forecasting-Consumer-Purchase-Intentions" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </article>
+
+    </div>
+    <p style="margin-top:16px; font-size:14px; color:var(--muted)">More on <a href="https://github.com/Jie1466803079" target="_blank" rel="noopener">GitHub</a> — 10+ public repositories across ML, data engineering, and analytics.</p>
+  </section>
+
+  <section class="section wrap">
+    <div class="eyebrow">Skills</div>
+    <h2>Toolkit</h2>
+    <div class="skills">
+      <div class="skill"><div class="k">Languages</div><div class="v">Python, R, SQL</div></div>
+      <div class="skill"><div class="k">Cloud &amp; Data Engineering</div><div class="v">AWS (Glue, S3, Redshift, EMR, Athena, SageMaker), ETL/ELT, data pipelines</div></div>
+      <div class="skill"><div class="k">Machine Learning</div><div class="v">scikit-learn, TensorFlow, Keras; classification, clustering, CNN, GNN</div></div>
+      <div class="skill"><div class="k">Data &amp; BI</div><div class="v">Snowflake, BigQuery, Tableau, data warehousing &amp; modelling</div></div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <div class="row">
+      <div>© 2026 Jie Liu · Sydney, Australia</div>
+      <div>
+        <a href="mailto:jieliu.jl@outlook.com">jieliu.jl@outlook.com</a> ·
+        <a href="https://github.com/Jie1466803079" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/jie1001" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="https://public.tableau.com/app/profile/jie.liu5535" target="_blank" rel="noopener">Tableau</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
