@@ -115,6 +115,9 @@
   .card .links a{color:var(--accent-d)}
   .card .links a:hover{color:var(--navy)}
   .more{margin-top:18px; font-size:14px; color:var(--muted)}
+  .dash-intro{font-size:16px; color:var(--muted); max-width:680px; margin-bottom:20px}
+  .viz-frame{border:1px solid var(--line); border-radius:16px; overflow:hidden; box-shadow:var(--shadow); background:#fff}
+  .viz-frame iframe{display:block; width:100%; height:740px; border:0}
 
   /* Skills */
   .skills{display:grid; grid-template-columns:1fr 1fr; gap:16px 30px}
@@ -157,6 +160,7 @@
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#dashboard">Dashboard</a>
         <a href="#skills">Skills</a>
         <a class="nav-cta" href="Resume_Jie_Liu.pdf">Resume ↓</a>
       </div>
@@ -254,7 +258,7 @@
         <h3>Customer, Market &amp; Competitor Analysis</h3>
         <div class="desc">Python ETL + an <strong>interactive Tableau dashboard</strong> over 22,978 transactions — customer segmentation, market-share shifts (<strong>24% → 29%</strong> in a shrinking market), and competitor analysis for a retail brand.</div>
         <div class="tags"><span class="pill">Tableau</span><span class="pill">Python</span><span class="pill">ETL</span><span class="pill">Segmentation</span></div>
-        <div class="links"><a href="https://public.tableau.com/app/profile/jie.liu5535/viz/DataAnalysisontheOutdoorProject/Story1" target="_blank" rel="noopener">Live dashboard →</a><a href="https://github.com/Jie1466803079/Tableau-Driven-Triple-Analysis-Customer-Market-and-Competitor-Insights-Project" target="_blank" rel="noopener">GitHub →</a></div>
+        <div class="links"><a href="#dashboard">Live dashboard ↓</a><a href="https://github.com/Jie1466803079/Tableau-Driven-Triple-Analysis-Customer-Market-and-Competitor-Insights-Project" target="_blank" rel="noopener">GitHub →</a></div>
       </article>
       <article class="card">
         <h3>Graph-Based Fraud Detection</h3>
@@ -270,6 +274,16 @@
       </article>
     </div>
     <div class="more">More on <a href="https://github.com/Jie1466803079" target="_blank" rel="noopener">GitHub</a> — 10+ public repositories across ML, data engineering, and analytics.</div>
+  </section>
+
+  <section id="dashboard" class="block wrap reveal">
+    <div class="eyebrow">Interactive</div>
+    <h2>Live dashboard</h2>
+    <p class="dash-intro">Don't just read about it — explore the Customer, Market &amp; Competitor analysis right here. Filter and interact with the real Tableau dashboard, built from 22,978 transactions.</p>
+    <div class="viz-frame">
+      <iframe title="Customer, Market &amp; Competitor Analysis — Tableau dashboard" src="https://public.tableau.com/views/DataAnalysisontheOutdoorProject/Story1?:embed=y&amp;:showVizHome=no&amp;:toolbar=yes&amp;:tabs=no" loading="lazy" allowfullscreen></iframe>
+    </div>
+    <div class="more"><a href="https://public.tableau.com/app/profile/jie.liu5535/viz/DataAnalysisontheOutdoorProject/Story1" target="_blank" rel="noopener">Open full-screen in Tableau Public →</a></div>
   </section>
 
   <section id="skills" class="block wrap reveal">
