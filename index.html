@@ -229,7 +229,7 @@
           <div class="tl">
             <div class="r">Master by Research, Artificial Intelligence</div><div class="o">UNSW Sydney</div>
             <div class="d">Sep 2024 – Dec 2026 (expected)</div>
-            <div class="x">Research focus: applications of Large Language Models (LLMs) in financial services.</div>
+            <div class="x">Thesis: predicting how much of its portfolio a mutual fund puts into a stock it buys for the first time, with OpenAI text embeddings of fund prospectuses. Fine-tuned BERT-base (full) and DeBERTa (LoRA) on the same filings for two of the twelve baselines.</div>
           </div>
           <div class="tl">
             <div class="r">Master of Computer Science — ML &amp; Big Data</div><div class="o">University of Wollongong</div>
@@ -245,6 +245,12 @@
     <div class="eyebrow">Selected Projects</div>
     <h2>What I've built</h2>
     <div class="cards">
+      <article class="card">
+        <h3>HET-FiLM — Master's thesis (UNSW)</h3>
+        <div class="desc">Predicts how much of its portfolio a mutual fund puts into a stock it is buying for the first time, using <strong>65 quarters of US holdings</strong> with SEC prospectus text and 44 quarters of Canadian holdings. Fund strategy text enters as <strong>OpenAI embeddings</strong>; for two of the twelve baselines I fine-tuned <strong>BERT-base (full)</strong> and <strong>DeBERTa (LoRA)</strong> on the same filings. Tested strictly on later quarters, it had the best results on all three regression metrics against all twelve baselines.</div>
+        <div class="tags"><span class="pill">PyTorch</span><span class="pill">Graph learning</span><span class="pill">OpenAI embeddings</span><span class="pill">BERT</span><span class="pill">LoRA</span></div>
+        <div class="links"><a href="https://github.com/Jie1466803079/HET-FiLM" target="_blank" rel="noopener">GitHub →</a></div>
+      </article>
       <article class="card">
         <h3>OzFish.AI — Fish ID &amp; Sizing (Android)</h3>
         <div class="desc">Android app that identifies <strong>68 NSW fish species</strong> from a photo using an InceptionV3 transfer-learning model (<strong>90.22% top-5 accuracy</strong>) and measures catch length via AR to check size compliance. Master's capstone — led a 6-person team; ranked #1 in cohort.</div>
@@ -289,7 +295,8 @@
     <div class="skills">
       <div class="skill"><div class="k">Languages</div><div class="row"><span class="pill">Python</span><span class="pill">R</span><span class="pill">SQL</span></div></div>
       <div class="skill"><div class="k">Cloud &amp; Data Engineering</div><div class="row"><span class="pill">AWS Glue</span><span class="pill">S3</span><span class="pill">Redshift</span><span class="pill">EMR</span><span class="pill">Athena</span><span class="pill">SageMaker</span><span class="pill">ETL/ELT</span><span class="pill">Data pipelines</span></div></div>
-      <div class="skill"><div class="k">Machine Learning</div><div class="row"><span class="pill">scikit-learn</span><span class="pill">TensorFlow</span><span class="pill">Keras</span><span class="pill">Classification</span><span class="pill">Clustering</span><span class="pill">CNN</span><span class="pill">GNN</span></div></div>
+      <div class="skill"><div class="k">Machine Learning</div><div class="row"><span class="pill">scikit-learn</span><span class="pill">PyTorch</span><span class="pill">TensorFlow</span><span class="pill">Keras</span><span class="pill">Classification</span><span class="pill">Clustering</span><span class="pill">CNN</span><span class="pill">GNN</span></div></div>
+      <div class="skill"><div class="k">Language Models</div><div class="row"><span class="pill">BERT fine-tuning</span><span class="pill">LoRA</span><span class="pill">OpenAI Embeddings API</span><span class="pill">Transformers</span></div></div>
       <div class="skill"><div class="k">Data &amp; BI</div><div class="row"><span class="pill">Snowflake</span><span class="pill">BigQuery</span><span class="pill">Tableau</span><span class="pill">Data warehousing</span><span class="pill">Data modelling</span></div></div>
     </div>
   </section>
